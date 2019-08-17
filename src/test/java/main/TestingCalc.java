@@ -35,7 +35,7 @@ public class TestingCalc {
 	@Test
 	public void div_test() {
 		
-		assertEquals(14/7,c.div(14,7));
+		assertEquals(4/7,c.div(4,7));
 	}
 
 }

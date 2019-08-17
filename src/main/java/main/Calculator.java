@@ -1,6 +1,5 @@
 package main;
 import java.util.*; 
-
 public class Calculator {
     public static void main(String[] args)
     {
@@ -9,7 +8,6 @@ public class Calculator {
         int num1,num2;
         num1 = inp.nextInt();
         num2 = inp.nextInt();
-        int ans;
         System.out.println("Enter your selection: 1 for Addition, 2 for substraction 3 for Multiplication and 4 for division:");
         int choose;
         choose = inp.nextInt();
@@ -29,34 +27,32 @@ public class Calculator {
             default:
                 System.out.println("Illigal Operation");
 
-
         }
-
-
-
+        
+        
     }
     public static int add(int x, int y)
     {
-    	int result=0;
+    	int result=x+y;
 //        write your code here 
     	
         return result;
     }
     public static int sub(int x, int y)
     {
-    	int result=0;
+    	int result=x-y;
 //        write your code here
         return result;
     }
     public static int mult(int x, int y)
     {
-    	int result=0;
+    	int result=x*y;
 //      write your code here        
     	return result;
     }
     public static int div(int x, int y)
     {
-    	int result=0;
+    	int result=x/y;
 //      write your code here
     	return result;
     }
